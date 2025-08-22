@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">Shop<span>Ease</span></div>
+    <nav id="navbar">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#" class="cart-icon">🛒 <span id="cart-count">0</span></a>
+    </nav>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Welcome to ShopEase</h1>
+    <p>Best deals on fashion, electronics, and more!</p>
+    <button>Shop Now</button>
+  </section>
+
+  <!-- Products -->
+  <section class="products" id="product-list">
+    <!-- Products will load here -->
+  </section>
+
+  <!-- Cart Sidebar -->
+  <aside id="cart-sidebar">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: ₹<span id="total">0</span></p>
+    <button onclick="checkout()">Checkout</button>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+  <main>
+    <h2>Products</h2>
+    <div class="products" id="product-list">
+      <!-- Products will be loaded here -->
+    </div>
+  </main>
+
+  <aside>
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="total">0</span></p>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
